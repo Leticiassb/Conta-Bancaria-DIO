@@ -10,6 +10,10 @@ public class ContaTerminal {
         System.out.println("Agora, digite o número da sua conta: ");
         String conta = dados.next();
 
+        /*A ideia é que o número da agência e conta seja localizado em um banco de dados
+        e traga as informações do cliente sem ele precisar digitar.
+         */
+
         String nome = "Letícia Silva";
         String tipoDeConta = "Corrente";
         double saldo = 1599.99;
@@ -23,6 +27,7 @@ public class ContaTerminal {
         System.out.println("Agência: " + agencia );
         System.out.println("Conta: " + conta );
         System.out.println("Tipo de conta: " + tipoDeConta);
+        System.out.println("\nSaldo: R$" + saldo);
         System.out.println("\n**************************");
 
         String menu = ("""
